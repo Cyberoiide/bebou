@@ -76,7 +76,18 @@ Un skill [Claude Code](https://docs.anthropic.com/en/docs/claude-code) (aussi Co
 
 Mise à jour automatique. Désinstallation propre avec `/plugin uninstall bebou-plugin@bebou`.
 
-### Option B — Script universel (Claude Code + Codex + Gemini)
+### Option B — OpenCode
+
+```bash
+mkdir -p ~/.config/opencode/skills/bebou
+BASE=https://raw.githubusercontent.com/Cyberoiide/bebou/main/plugins/bebou-plugin/skills/bebou
+curl -fsSL "$BASE/SKILL.md" -o ~/.config/opencode/skills/bebou/SKILL.md
+curl -fsSL "$BASE/argot.md" -o ~/.config/opencode/skills/bebou/argot.md
+```
+
+Activation : l'agent charge le skill automatiquement via `skill({ name: "bebou" })` ou tape `/bebou`.
+
+### Option C — Script universel (Claude Code + Codex + Gemini)
 
 ```bash
 # macOS / Linux / WSL

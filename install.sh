@@ -78,6 +78,16 @@ install_codex() {
   INSTALLED_AGENTS+=("Codex")
 }
 
+# --- OpenCode ---
+install_opencode() {
+  local dest="$HOME/.config/opencode/skills/bebou"
+  mkdir -p "$dest"
+  fetch "$REPO/SKILL.md" "$dest/SKILL.md"
+  fetch "$REPO/argot.md" "$dest/argot.md"
+  echo -e "${PINK}  ✓ OpenCode ${NC}→ $dest"
+  INSTALLED_AGENTS+=("OpenCode")
+}
+
 # --- Gemini CLI ---
 install_gemini() {
   local dest="$HOME/.gemini/skills/bebou"
@@ -101,6 +111,10 @@ fi
 
 if [ -d "$HOME/.gemini" ] || command -v gemini &>/dev/null; then
   install_gemini
+fi
+
+if [ -d "$HOME/.config/opencode" ] || command -v opencode &>/dev/null; then
+  install_opencode
 fi
 
 # fallback si rien détecté
