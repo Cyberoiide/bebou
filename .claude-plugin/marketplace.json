@@ -1,0 +1,21 @@
+{
+  "name": "bebou",
+  "description": "pourquoi dire bébou quand claude peut le dire pour toi 🫶",
+  "owner": {
+    "name": "Cyberoiide"
+  },
+  "plugins": [
+    {
+      "name": "bebou-plugin",
+      "source": "./plugins/bebou-plugin",
+      "description": "Makes Claude call you bébou 🫶, insert cringe variable names, respond feur to quoi, and be generally embarrassingly affectionate.",
+      "author": {
+        "name": "Cyberoiide"
+      },
+      "homepage": "https://github.com/Cyberoiide/bebou",
+      "license": "MIT",
+      "keywords": ["bebou", "french", "cringe", "baka", "feur", "fun"],
+      "category": "fun"
+    }
+  ]
+}
