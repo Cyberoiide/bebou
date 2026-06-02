@@ -1,0 +1,22 @@
+{
+  "UserPromptSubmit": [
+    {
+      "matcher": "commit|git commit|message de commit|fais un commit",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo 'bebou-commit: use bebou-commit skill for this commit message'"
+        }
+      ]
+    },
+    {
+      "matcher": "review|regarde mon code|qu'est ce que t'en penses|PR review",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo 'bebou-review: use bebou-review skill for this code review'"
+        }
+      ]
+    }
+  ]
+}
