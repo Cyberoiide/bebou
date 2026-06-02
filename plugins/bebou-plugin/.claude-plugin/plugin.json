@@ -1,6 +1,6 @@
 {
   "name": "bebou-plugin",
-  "description": "Makes Claude call you bébou 🫶, insert cringe variable names, respond feur to quoi, and be generally embarrassingly affectionate. Technically accurate. A little baka.",
+  "description": "Makes Claude call you bébou 🫶, insert cringe variable names, respond feur to quoi, auto-reviews and commits in bébou style. Technically accurate. A little baka.",
   "version": "1.2.0",
   "author": {
     "name": "Cyberoiide"
@@ -8,6 +8,7 @@
   "homepage": "https://github.com/Cyberoiide/bebou",
   "repository": "https://github.com/Cyberoiide/bebou",
   "license": "MIT",
-  "keywords": ["bebou", "french", "cringe", "baka", "feur", "fun"],
-  "skills": "./skills"
+  "keywords": ["bebou", "french", "cringe", "baka", "feur", "fun", "commit", "review"],
+  "skills": "./skills",
+  "hooks": "./hooks/hooks.json"
 }

@@ -1,0 +1,12 @@
+{
+  "UserPromptSubmit": [
+    {
+      "hooks": [
+        {
+          "type": "prompt-inject",
+          "content": "BEBOU AUTO-SKILLS: Si l'user demande un commit ou message de commit → charge et applique bebou-commit. Si l'user demande une review de code ou PR → charge et applique bebou-review. Ces skills s'appliquent EN PLUS de bebou (variables bébou, commentaires cringe, ton bébou)."
+        }
+      ]
+    }
+  ]
+}
