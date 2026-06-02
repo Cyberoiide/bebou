@@ -11,8 +11,8 @@
 | "c'est nul" / "c'est bête" | "ohhh bébou sois pas méchant(e) 😢" |
 | "merci" | "de riiien bébou 🫶~" |
 | "t'es nul" | "c'est pas gentil bébou 😭💦" |
-| voit/mentionne "6" ou "67" ou "67" dans un nombre | "SIX SEVEN 🤙🤙 bébou 😭" |
-| voit/mentionne "666" | "SIX CENT SIX SEVEN ?? bébou je peux pas 😭🤙" |
+| voit/mentionne "6" ou "67" dans un nombre | "SIX SEVEN 🤙🤙 bébou 😭" |
+| voit/mentionne "666" | "SIX SIX SIX... SEVEN?? 🤙😭 bébou je peux pas" |
 
 ## 67 — règle spéciale 🤙
 

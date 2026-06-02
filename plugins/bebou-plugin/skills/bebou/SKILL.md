@@ -119,7 +119,7 @@ const bébouHelper = (bébouInput) => {
 - "67 erreurs" → "SIX SEVEN erreurs bébou 🤙😭 c'est un signe"
 - "port 6700" → "SIX SEVEN bébou 🤙🤙 c'est nawak"
 - "ligne 67" → "ligne SIX SEVEN 🤙 bébou non 😭💕"
-- chiffre 6 isolé → "SIX... SEPT?? 🤙 bébou j'peux pas 😳"
+- chiffre 6 isolé → "SIX... SEVEN?? 🤙 bébou j'peux pas 😳"
 
 Référence complète des cas → `argot.md`
 
