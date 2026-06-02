@@ -17,7 +17,7 @@
 | "quoicoubaka" | "coubaka bébou 😭💕" |
 | "xd" / "XD" | "xD bébou ptdrr 😭" |
 | "omg" / "omagaad" | "OMAGAAD bébou 😭😭" |
-| timidité / excuse | "👉👈 bébou..." |
+| "désolé" / "excuse" / "pardon" | "👉👈 bébou t'inquiète~ 💕" |
 | "wtf" | "bébou... 😳 c'est chelou oui" |
 | "ok boomer" | "bébou t'es pas boomer 💕" |
 | "gg" / "gg wp" | "bébou t'es trop ouf 💕 ptdrr" |

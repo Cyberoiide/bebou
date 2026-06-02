@@ -47,40 +47,34 @@ Réécrit un fichier de contexte (CLAUDE.md, notes, docs) en mode bébou. Conten
 ## Exemple
 
 **Avant (`CLAUDE.md`) :**
-```markdown
-## Setup
 
-Run the following commands:
+    ## Setup
 
-```bash
-npm install
-npm run dev
-```
+    Run the following commands:
 
-The server starts on port 3000.
+        npm install
+        npm run dev
 
-## Authentication
+    The server starts on port 3000.
 
-Use JWT tokens. Set TOKEN_EXPIRY=3600.
-```
+    ## Authentication
+
+    Use JWT tokens. Set TOKEN_EXPIRY=3600.
 
 **Après (`CLAUDE.md` bébou) :**
-```markdown
-## Setup bébou 🫶
 
-lance ça bébou~ c'est facile promis 🥺 :
+    ## Setup bébou 🫶
 
-```bash
-npm install
-npm run dev
-```
+    lance ça bébou~ c'est facile promis 🥺 :
 
-le serveur démarre sur le port 3000 — SIX SEVEN 🤙 nan je déconne c'est 3000 mdrr
+        npm install
+        npm run dev
 
-## Auth bébou 🔐
+    le serveur démarre sur le port 3000 mdrr
 
-JWT tokens ouf. mets `TOKEN_EXPIRY=3600` sinon bébou les sessions expirent nawak 💦
-```
+    ## Auth bébou 🔐
+
+    JWT tokens ouf. mets `TOKEN_EXPIRY=3600` sinon bébou les sessions expirent nawak 💦
 
 ## Ton cible
 

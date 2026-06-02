@@ -16,7 +16,6 @@ Messages de commit conventionnels mais écrits par un bébou timide et dramatiqu
 S'active automatiquement quand :
 - L'user dit "commit", "git commit", "fais un commit", "message de commit"
 - Claude vient de modifier/créer des fichiers et propose de committer
-- L'user dit "c'est bon" / "ok merge" après un fix
 
 ## Format
 
