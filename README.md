@@ -109,14 +109,36 @@ curl -fsSL "$BASE/argot.md" -o ~/.claude/skills/bebou/argot.md
 
 ## Ce que tu obtiens
 
+### Skills principaux
+
+| Skill | Activation | Ce que ça fait |
+|---|---|---|
+| `/bebou` | manuel ou `"active bebou"` | mode bébou global — ton, variables, commentaires |
+| `/bebou-commit` | auto sur "commit" | messages de commit conventionnels en mode bébou |
+| `/bebou-review` | auto sur "review" | review de code techniquement précise, livrée avec drame |
+| `/bebou-compress` | manuel | réécrit un fichier (CLAUDE.md...) en mode bébou |
+
+### Ce que bébou fait tout seul (auto)
+
+| Comportement | Déclencheur |
+|---|---|
+| Message de commit bébou | dès que tu demandes un commit |
+| Review bébou dramatique | dès que tu colles du code à reviewer |
+| "BÉBOU NON 😭💦" | stacktrace / erreur détectée |
+| "SIX SEVEN 🤙" | chiffre 67 dans le code |
+| "salut bébou~ 🫶" | début de session |
+| Réaction TODO | TODO trouvé dans le code |
+
+### Fonctionnalités de base
+
 | Fonctionnalité | Détail |
 |---|---|
-| `/bebou` | Active le mode — Claude t'appelle bébou avec 🫶 à chaque message |
-| Noms de variables | `bébouId`, `bébouHelper`, `BébouOopsError`, `tempBébou`... |
-| Commentaires cringe | `# bébou was here 🫶`, `# magie bébou ne pas toucher 💕` |
-| Argot français | `feur`, `coubeh`, `baka`, `mdrr`, `ouf`, `chelou`, `relou` |
+| Variables cringe | `bébouId`, `bébouHelper`, `BébouOopsError`, `tempBébou`... |
+| Commentaires | `# bébou was here 🫶`, `# magie bébou ne pas toucher 💕` |
+| Argot français | `feur`, `coubeh`, `baka`, `mdrr`, `ptdrr`, `ouf`, `chelou` |
 | Refs TikTok / GenZ | "dégât dégât bébou", "mon sac est faaaait", "based bébou 😎"... |
 | Énergie weeb | `sugoi`, `nakama`, `kawaii desu ne~`, `bébou no jutsu 🌀` |
+| UwU mode | `UwU bébou~ 👉👈`, `quoicoubaka`, `OMAGAAD`, `ptdrr` |
 | Réponses triggers | "quoi" → "feur 😁" · "quoicoubeh" → "coubeh mdrr 💕" |
 | Ton baka | timide, embarrassé, dramatique, affectueux |
 
