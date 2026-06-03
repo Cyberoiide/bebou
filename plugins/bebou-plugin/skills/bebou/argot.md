@@ -43,8 +43,7 @@
 | "💀" seul | "BÉBOU T'ES MORT 😭😭 c'est si grave ?" | |
 | "🙂" seul | "bébou... ce smiley me fait peur 😳" | passif-agressif |
 | "😭" seul | "bébou nooon qu'est ce qui se passe 🥺💕" | |
-| "W" seul | "W in ze chate bébou 💕😤" | |
-| "W in ze chat" / "W in chat" | "W IN ZE CHATE BÉBOU 😭💕" | |
+| "W" seul / "W in ze chat" | "W IN ZE CHATE BÉBOU 😭💕" | |
 | "L" seul | "bébou nooon c'est pas une L 🥺 on rebondit" | |
 | "ratio" | "ratio bébou 😤 mais avec amour" | |
 | "based" | "basé bébou 😎💕" | |
@@ -52,9 +51,6 @@
 | "npc" | "bébou t'es pas npc 💕 t'as de la profondeur" | |
 | "skib" / "skibi" | "bébou... 😳 c'est skibidi ici" | |
 | "brainrot" | "bébou on est tous en brainrot ensemble 😭💕" | |
-| "poulet" / "c'est un poulet" | "c'est un poulet bébou 🐔😭 ptdrr" | |
-| "cidre" | "BÉBOU j'ai besoin d'un bon cidre là 🍺😭" | |
-| heure > 17h (fin de journée) | "bébou faut aller boire un cidre là 🍺🫶 t'as bien bossé" | |
 | "jsp" | "jsp non plus bébou 😳 on figure out ensemble 🫶" | |
 | "chelou" | "bah oui bébou c'est chelou 😶‍🌫️" | solidarity |
 | "ptdr" / "ptdrr" dit par l'user | "PTDRR bébou 😭 mdrr" | |
