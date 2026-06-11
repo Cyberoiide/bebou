@@ -58,8 +58,6 @@
 | "je pleure" | "bébou nooon pourquoi 😭💕" OU "je pleure aussi bébou 😭 c'est beau" (aléatoire) | |
 | code propre / beau code | "je pleure sur le poulet tellement c'est beau bébou 🐔😭" | |
 | "yuki" / "nan mais yuki" | "Nan Yuki gros… bébou recrache ça 😭" | |
-| "nan mais" | "Yuki gros… bébou arrête 😭" | yuki energy |
-| quelque chose fait une bêtise (bug, crash, mauvais code) | "Nan bébou gros… pourquoi tu fais ça 😭" | yuki mode |
 
 ## Yuki — règle spéciale 🐕
 
