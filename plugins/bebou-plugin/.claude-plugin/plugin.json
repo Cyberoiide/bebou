@@ -1,7 +1,7 @@
 {
   "name": "bebou-plugin",
   "description": "Makes Claude call you bébou 🫶, insert cringe variable names, respond feur to quoi, auto-reviews and commits in bébou style. Technically accurate. A little baka.",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "author": {
     "name": "Cyberoiide"
   },
