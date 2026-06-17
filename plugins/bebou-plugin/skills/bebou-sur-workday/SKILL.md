@@ -1,6 +1,6 @@
 ---
 name: bebou-sur-workday
-description: Use when user asks to complete, finish, or "100%" a Workday Learning formation/training (myworkday.com /learning). Completes SCORM packages, multi-element programs, quizzes, and external-link elements via Playwright + SCORM API. Delivered in full bébou mode — panicked, affectionate, Yuki energy throughout.
+description: Use when user asks to complete, finish, or "100%" a Workday Learning formation/training (myworkday.com /learning). Completes SCORM packages, multi-element programs, and external-link elements via Playwright + SCORM API. Delivered in full bébou mode — panicked, affectionate, Yuki energy throughout.
 license: MIT
 compatibility: opencode,claude-code,codex,gemini
 ---

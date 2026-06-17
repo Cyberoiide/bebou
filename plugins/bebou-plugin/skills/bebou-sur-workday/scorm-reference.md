@@ -60,6 +60,7 @@ Après launch : `browser_tabs list` → sélectionner `ScormEngineInterface/.../
 ```js
 () => {
   const api = window.API;
+  if (!api || typeof api.LMSGetValue !== 'function') return {error: 'API not ready — wait 3-4s and retry'};
   const s = (k,v) => ({k, r: api.LMSSetValue(k,v), err: api.LMSGetLastError()});
   const log = [];
   log.push(s('cmi.core.score.raw','100'));
@@ -107,6 +108,7 @@ Succès = leçon "Terminé" + programme "X obligatoire(s) terminé(s) sur X" + `
 
 ```js
 const btn = document.querySelector('[aria-label*="next page"],[aria-label="Go to the previous page"]');
+if (!btn) return 'no nav button found — slide-skip not available for this package';
 const key = Object.keys(btn).find(k=>k.startsWith('__reactFiber'));
 let f = btn[key], nav;
 while (f){ const p=f.memoizedProps; if(p?.navigator) nav=p.navigator; f=f.return; }
