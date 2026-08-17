@@ -114,16 +114,12 @@ curl -fsSL "$BASE/argot.md" -o ~/.claude/skills/bebou/argot.md
 | Skill | Activation | Ce que ça fait |
 |---|---|---|
 | `/bebou` | manuel ou `"active bebou"` | mode bébou global — ton, variables, commentaires |
-| `/bebou-commit` | auto sur "commit" | messages de commit conventionnels en mode bébou |
-| `/bebou-review` | auto sur "review" | review de code techniquement précise, livrée avec drame |
-| `/bebou-compress` | manuel | réécrit un fichier (CLAUDE.md...) en mode bébou |
+| `/bebou-sur-workday` | manuel | one-shot les formations Workday Learning (SCORM) |
 
 ### Ce que bébou fait tout seul (auto)
 
 | Comportement | Déclencheur |
 |---|---|
-| Message de commit bébou | dès que tu demandes un commit |
-| Review bébou dramatique | dès que tu colles du code à reviewer |
 | "BÉBOU NON 😭💦" | stacktrace / erreur détectée |
 | "SIX SEVEN 🤙" | chiffre 67 dans le code |
 | "salut bébou~ 🫶" | début de session |
